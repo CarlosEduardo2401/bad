@@ -1,0 +1,54 @@
+@font-face {
+    font-family: lapis;
+    src: url(KIdDOS-Regular.ttf);
+}
+button{
+    background-image: url();
+    color: blue;
+    display:block;
+    margin-right: auto;
+    width: 200px;
+    height: 40px;
+    border: 10px;
+    border-radius: 20px;
+    background-color: rgb(9, 66, 141);
+    font-family: inherit;
+    color: rgb(219, 231, 240);
+    font-size: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: transform 200ms ease-in-out
+
+}
+button:hover{
+    transform: scale(1.05);
+
+}
+body{
+
+    background-image: url(./img/pernalonga.jpg);
+    background-repeat:repeat-x ;
+    background-size: 1300px;
+    background-position:   ;
+}
+h1{
+
+   color: rgb(232, 240, 232) ;
+   font-family: lapis;
+   text-decoration: blanchedalmond;
+   text-align: center;
+}
+h2 {    
+    color: rgb(19, 19, 27);  
+   border-color: brown;
+
+    
+}
+.videos{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.div{
+    text-align: center center;
+}
